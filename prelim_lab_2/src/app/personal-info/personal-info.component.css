@@ -1,0 +1,22 @@
+/* Jimwel L. Valdez | WD-302 */
+
+.title {
+    text-align: center;
+}
+
+img {
+    margin: 2rem auto;
+    border-radius: 1rem;
+    display: block;
+    width: 80%;
+}
+
+h3, p {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+/* Copyright (c) 2024 by Jimwel Valdez. All rights reserved. */

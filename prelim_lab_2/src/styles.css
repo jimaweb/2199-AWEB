@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+/* Jimwel L. Valdez | WD-302 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', Verdana, Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: #fdffe6;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+    color: #005a72;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.year,
+.ref-details {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.tab {
+    margin-left: 0.5rem;
+}
+
+section {
+    border: 1px solid #005a72;
+    border-radius: 1.5rem;
+    padding: 1.8rem;
+    margin: 1.5rem 0.75rem;
+    transition: all 0.2s;
+    background-color: white;
+}
+
+section:hover {
+    box-shadow: 1px 1px 10px #9bb7c0;
+    transform: scale(1.01);
+}
+
+
+/* Copyright (c) 2024 by Jimwel Valdez. All rights reserved. */

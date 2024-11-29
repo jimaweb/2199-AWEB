@@ -1,9 +1,16 @@
 /* Jimwel L. Valdez | WD-302 */
 
-.edu-body {
+.title {
+    margin-top: 2rem;
+}
+
+.cert-body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
 }
 
+.cert-left, .cert-right {
+    width: 100%;
+}
 /* Copyright (c) 2024 by Jimwel Valdez. All rights reserved. */

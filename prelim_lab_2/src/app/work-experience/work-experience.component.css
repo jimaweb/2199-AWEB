@@ -1,0 +1,9 @@
+/* Jimwel L. Valdez | WD-302 */
+
+.work-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Copyright (c) 2024 by Jimwel Valdez. All rights reserved. */
