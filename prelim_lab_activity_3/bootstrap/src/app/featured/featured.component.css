@@ -1,0 +1,8 @@
+/* Copyright (c) 2024 by Jimwel L. Valdez. All rights reserved. */
+
+#hero {
+    background-image: url('../../../public/hero-image-index.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
