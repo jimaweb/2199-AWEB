@@ -7,7 +7,19 @@
 
 @layer base {
     .jlink {
-        @apply hover:text-jsecondary cursor-pointer transition-all duration-200;
+        @apply text-jlight hover:text-jsecondary cursor-pointer transition-all duration-200;
+    }
+
+    .prod-name {
+        @apply font-bold text-2xl pb-1;
+    }
+
+    .product-card {
+        @apply bg-jlight rounded-xl border border-jprimary p-4 hover:scale-[1.02] transition-all duration-200;
+    }
+
+    .jbuy {
+        @apply bg-jlight border border-jprimary text-jprimary py-2 px-4 rounded hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-200;
     }
 }
 
