@@ -1,3 +1,5 @@
+// Copyright (c) 2024 by Jimwel L. Valdez. All rights reserved.
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
